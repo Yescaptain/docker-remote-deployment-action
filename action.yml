@@ -20,10 +20,10 @@ inputs:
   ssh_port:
     description: The ssh port of the server. Default is 22
     required: false
-  docker_login_password:
+  docker_password:
     description: The docker login password
     required: false
-  docker_login_user:
+  docker_user:
     description: The docker login user
     required: false
   docker_login_registry:
